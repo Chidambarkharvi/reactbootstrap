@@ -12,6 +12,7 @@ import Alertt from './Alertt';
 function Mod() {
   const [show, setShow] = useState(false);
 
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -30,6 +31,11 @@ function Mod() {
         </Modal.Header>
         <Modal.Body>
           <Form>
+
+   
+
+
+
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="name@example.com" />
@@ -50,7 +56,6 @@ function Mod() {
           <Button
             variant="primary"
             onClick={() => {
-              alert('submitted your response successfully');
               handleClose();
             }}
           >
@@ -58,6 +63,7 @@ function Mod() {
           </Button>
         </Modal.Footer>
       </Modal>
+ 
     </div>
   );
 }

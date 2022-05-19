@@ -118,13 +118,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Carosels from "./components/Carosels";
 
 import Fig from "./components/Fig";
+import TableData from './components/TableData';
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <Navbar1 />
       <Carosels />
       <Fig />
+      <TableData/>
     </div>
   );
 }

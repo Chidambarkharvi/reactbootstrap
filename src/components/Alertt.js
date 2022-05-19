@@ -9,7 +9,7 @@ function Alertt() {
         return ( 
             <div style={{width: "30%"}}>
 
-          <Alert variant="primary">
+          <Alert show={show} variant="primary">
             <Alert.Heading>Successfully submited yout details</Alert.Heading>
             <Button onClick={() => setShow(!show)}>Close</Button>
           </Alert>

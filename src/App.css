@@ -1,0 +1,21 @@
+.carousel img{
+  height:600px
+}
+
+.carousel h3{
+  color:rgb(130, 54, 54)
+}
+.carousel{
+  margin-bottom:70px;
+}
+
+.car-image{
+  margin-top:20px;
+  width:400px;
+  height:350px;
+ float:right;
+ margin-right:50px;
+ border: 2px solid black;border-radius:5px;
+ padding:20px;
+ overflow: auto;
+}
